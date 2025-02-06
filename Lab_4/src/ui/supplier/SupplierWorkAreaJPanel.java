@@ -173,11 +173,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
     private void btnUpdateProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateProfileActionPerformed
         // TODO add your handling code here:
-        UpdateProfileJPanel mpcjp = new UpdateProfileJPanel (workArea,supplierDirectory, supplier);
-        workArea.add("UpdateProfileJPanel ", mpcjp);
-        CardLayout layout = (CardLayout) workArea.getLayout();
-        layout.next(workArea);
-        
+
         
     }//GEN-LAST:event_btnUpdateProfileActionPerformed
 
