@@ -58,8 +58,19 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
         lblProductId.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
         txtId.setEditable(false);
+        txtId.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdActionPerformed(evt);
+            }
+        });
 
         lblPrice.setText("Product Price:");
+
+        txtPrice.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPriceActionPerformed(evt);
+            }
+        });
 
         btnAdd.setText("Add Product");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
@@ -159,6 +170,14 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
         backAction();
     }//GEN-LAST:event_btnBackActionPerformed
+
+    private void txtIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdActionPerformed
+
+    private void txtPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPriceActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtPriceActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;

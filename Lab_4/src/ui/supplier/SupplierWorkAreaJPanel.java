@@ -14,7 +14,7 @@ import ui.LoginScreen;
 
 /**
  *
- * @author Rushabh
+ * @author ushakeshravya
  */
 public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
